@@ -1,0 +1,7 @@
+C:\Users\Ronka\hello-git\Cola\Cola\bin\Debug\Cola.exe.config
+C:\Users\Ronka\hello-git\Cola\Cola\bin\Debug\Cola.exe
+C:\Users\Ronka\hello-git\Cola\Cola\bin\Debug\Cola.pdb
+C:\Users\Ronka\hello-git\Cola\Cola\obj\Debug\Cola.csprojAssemblyReference.cache
+C:\Users\Ronka\hello-git\Cola\Cola\obj\Debug\Cola.csproj.CoreCompileInputs.cache
+C:\Users\Ronka\hello-git\Cola\Cola\obj\Debug\Cola.exe
+C:\Users\Ronka\hello-git\Cola\Cola\obj\Debug\Cola.pdb
