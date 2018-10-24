@@ -3,7 +3,7 @@
 「每2瓶空瓶或每4枚瓶蓋即可再換一瓶可樂」,
 試算出所有錢買可樂後,最後能喝到幾瓶可樂?
 # 作法
--
+```
 public static int CountBottle(int Bottle)
 {
   int BottleTop = Bottle, sum = Bottle, EmptyBottle = Bottle;//令瓶蓋為瓶子數,瓶子總數為瓶子數,空瓶子數目為瓶子數
@@ -24,6 +24,6 @@ public static int CountBottle(int Bottle)
     //a+=b >> a = a+b
     return sum;//回傳總和值
 }
--
+```
 # 注意事項
 小草籽保留最終所有權益
