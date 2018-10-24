@@ -3,6 +3,7 @@
 「每2瓶空瓶或每4枚瓶蓋即可再換一瓶可樂」,
 試算出所有錢買可樂後,最後能喝到幾瓶可樂?
 # 作法
+-函式方法
 ```
 public static int CountBottle(int Bottle)
 {
@@ -23,6 +24,26 @@ public static int CountBottle(int Bottle)
     //例如輸入10元,輸出可兌得35瓶可樂
     //a+=b >> a = a+b
     return sum;//回傳總和值
+}
+```
+-主程式Main()
+```
+namespace Cola
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int n;
+            Console.WriteLine("今天有一個商家推出可樂促銷活動,一瓶可樂一元,「每2瓶空瓶或每4枚瓶蓋即可再換一瓶可樂」," +
+                "試算出所有錢買可樂後,最後能喝到幾瓶可樂?");
+            Console.Write("請輸入你想買可樂的錢:");
+            n = int.Parse(Console.ReadLine());
+            Console.WriteLine("你能兌換到的可樂瓶數:" + CountBottle(n) + "瓶");
+            Console.ReadKey();
+        }
+    }
 }
 ```
 # 注意事項
