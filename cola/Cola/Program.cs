@@ -10,6 +10,7 @@ namespace Cola
     {
         static void Main(string[] args)
         {
+            
             int n;
             Console.WriteLine("今天有一個商家推出可樂促銷活動,一瓶可樂一元,「每2瓶空瓶或每4枚瓶蓋即可再換一瓶可樂」," +
                 "試算出所有錢買可樂後,最後能喝到幾瓶可樂?");
@@ -27,12 +28,12 @@ namespace Cola
             {
                 Bottle = (EmptyBottle / 2) + (BottleTop / 4);//可兌得瓶數 = 空瓶子/2+瓶蓋/4
                 RemEmptyBottle = EmptyBottle % 2;//兌換後剩餘瓶數 =  空瓶子/2的餘數
-                RemBottleTop = BottleTop % 4;//兌換後剩餘瓶蓋數 =  空瓶子/2的餘數
+                RemBottleTop = BottleTop % 4;//兌換後剩餘瓶蓋數 =  瓶蓋數/4的餘數
                 EmptyBottle = Bottle;//空瓶數=兌得瓶子數
                 BottleTop = Bottle;//瓶蓋=兌得瓶子數
                 sum += Bottle;//瓶子(含飲料)總數=原始總數+兌得的瓶數
                 EmptyBottle += RemEmptyBottle;//空瓶子數=原本的空瓶子數+兌換後剩餘瓶數
-                BottleTop += RemBottleTop;//瓶蓋數=兌換後剩餘瓶蓋數
+                BottleTop += RemBottleTop;//瓶蓋數=原本的瓶蓋數+兌換後剩餘瓶蓋數
             }
             //例如輸入10元,輸出可兌得35瓶可樂
             //a+=b >> a = a+b
