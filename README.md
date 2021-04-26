@@ -5,7 +5,7 @@
 # 作法
 -函式方法
 ```
-This is C# code.
+//This is C# code.
 public static int CountBottle(int Bottle)
 {
   int BottleTop = Bottle, sum = Bottle, EmptyBottle = Bottle;//令瓶蓋為瓶子數,瓶子總數為瓶子數,空瓶子數目為瓶子數
